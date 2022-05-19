@@ -1,7 +1,7 @@
 #!/bin/bash
 # This script pulls all the images in the list-images.txt from Docker Hub (or other registry)
 # and saves all of the images as saved-images.tar.gz.
-
+# Example : ./save-images.sh --image-list ./list-images.txt
 
 list="list-images.txt"
 images="saved-images.tar.gz"
